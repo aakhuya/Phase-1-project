@@ -2,7 +2,12 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-image: url('https://images.pexels.com/photos/1088158/pexels-photo-1088158.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .container {
@@ -27,7 +32,7 @@ h1 {
     max-width: 80%;
     margin: 20px auto;
     padding: 20px;
-    border: 2px solid orange;
+    border: 2px solid black;
 }
 
 .gallery {
@@ -55,7 +60,7 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     margin: 0 auto;
-    border: 2px solid orange;
+    border: 2px solid black;
 }
 
 .add-image-section .input-group {
@@ -67,7 +72,7 @@ h1 {
 }
 
 button {
-    background-color: orange;
+    background-color: black;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -76,12 +81,12 @@ button {
 }
 
 button:hover {
-    background-color: darkorange;
+    background-color: gray;
 }
 
 input[type="file"] {
     padding: 8px;
-    border: 1px solid orange;
+    border: 1px solid black;
     border-radius: 5px;
 }
 
